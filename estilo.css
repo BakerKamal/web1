@@ -1,0 +1,40 @@
+
+div#limites_del_campo{
+	height: 400px;
+	width: 400px;
+	background-color: silver;
+	position: relative;
+	left: calc(50% - 200px);
+}
+
+div#vehiculo{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-color: orange;
+}
+
+input[type="button"]#stop{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 200px);
+}
+input[type="button"]#play{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 150px);
+}
+input[type="color"]#colorFondo{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 100px);
+}
+input[type="button"]#creadoPor{
+	height: 50px;
+	width: 100px;
+	position: absolute;
+	left: calc(50% + 100px);
+}
